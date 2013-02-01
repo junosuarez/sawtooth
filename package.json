@@ -1,0 +1,39 @@
+{
+  "name": "sawtooth",
+  "version": "0.5.0",
+  "description": "data access pattern for tiered-locality data access",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:AgileDiagnosis/sawtooth.git"
+  },
+  "keywords": [
+    "cache",
+    "promises",
+    "data",
+    "tier",
+    "fallback",
+    "cascade",
+    "repository"
+  ],
+  "author": "Agile Diagnosis <hello@agilediagnosis.com>",
+  "contributors": ["jden <jason@denizac.org>"],
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "mocha": "~1.8.1",
+    "sinon": "~1.5.2",
+    "chai": "~1.4.2",
+    "sinon-chai": "~2.3.1",
+    "chai-interface": "~1.0.0"
+  },
+  "dependencies": {
+    "prometido": "~0.1.0"
+  }
+}
