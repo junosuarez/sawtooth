@@ -3,7 +3,7 @@ data access pattern for tiered-locality data access
 
 ## about
 
-When you go to access some data in your application, where does it come from? It could be in memory, but maybe you also have an on-disk cache, and you might have a remoe location, say a REST api. Now what you've got is a problem of [spatial locality](http://en.wikipedia.org/wiki/Locality_of_reference), and it might be a good idea to separate the concern of tracking down where the data is away from the rest of your application.
+When you go to access some data in your application, where does it come from? It could be in memory, but maybe you also have an on-disk cache, and you might have a remote location, say a REST api. Now what you've got is a problem of [spatial locality](http://en.wikipedia.org/wiki/Locality_of_reference), and it might be a good idea to separate the concern of tracking down where the data is away from the rest of your application.
 
 In the above example, you would have 3 tiers of data access, sorted by latency:
 
